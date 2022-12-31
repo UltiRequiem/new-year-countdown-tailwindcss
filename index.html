@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="src/main.ts" type="module" defer></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>New Year Countdown</title>
+  </head>
+  <body>
+    <div class="h-screen bg-yellow-400 text-center">
+      <h1 class="text-7xl p-5">🎉⁉</h1>
+
+      <section class="grid grid-rows-2 grid-flow-col gap-3 p-6">
+        <div class="bg-yellow-300 rounded p-3 md:p-10">
+          <h2 id="day" class="text-5xl"></h2>
+          <p>Days</p>
+        </div>
+
+        <div class="bg-yellow-300 rounded p-3 md:p-10">
+          <h2 id="hour" class="text-5xl"></h2>
+          <p>Hours</p>
+        </div>
+
+        <div class="bg-yellow-300 rounded p-3 md:p-10">
+          <h2 id="minute" class="text-5xl"></h2>
+          <p>Minutes</p>
+        </div>
+
+        <div class="bg-yellow-300 rounded p-3 md:p-10">
+          <h2 id="second" class="text-5xl"></h2>
+          <p>Seconds</p>
+        </div>
+      </section>
+
+      <p id="left" class="text-3xl p-2"></p>
+    </div>
+
+    <p class="text-2xl p-4 bg-yellow-200">Eliaz Bobadilla</p>
+  </body>
+</html>
